@@ -1,0 +1,26 @@
+<div class="head clearfix" ng-controller="head">
+    <div class="head_main clearfix">
+        <p>Pets <span>Design</span></p>
+        <span></span>
+        <i>优质的服务,放心的选择</i>
+        <div class="h_u_main">
+            <a href="#/login">登录</a>
+            <span>/</span>
+            <a href="#/register">注册</a>
+        </div>
+        <div class="h_m_main">
+            <img src="http://11563763.s61i.faiusr.com/4/AD0I8_XBBRAEGAAg4eWXwAUo4Obo4AcwKjgi.png"/>
+            <p>宠物咨询</p>
+            <span>400-00000000</span>
+        </div>
+    </div>
+    <div class="head_ul clearfix">
+        <ul>
+            <li class="{{$index == i? 'h_li':''}}" ng-repeat="val in arr" ng-click="skip($index)">
+                {{val}}
+                <a ng-if="$index == 1" href="#/nav21"><i class="iconfont">&#xe609;</i>宠物百科</a>
+                <a ng-if="$index == 4" href="#/nav51"><i class="iconfont">&#xe609;</i>留言板</a>
+            </li>
+        </ul>
+    </div>
+</div>

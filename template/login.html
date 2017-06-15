@@ -1,0 +1,27 @@
+<div class="main clearfix">
+    <!--广告图-->
+    <div ng-include=" 'common/banner_img.html' "></div>
+    <!--登录-->
+    <div class="login">
+        <div class="login_main clearfix">
+            <h1>欢迎登录</h1>
+            <form>
+                <ul>
+                    <li>
+                        <span>用户名:</span>
+                        <input type="text" ng-model="name" ng-blur="verifyN(arrs)"/>
+                        <p class="{{Name}}">{{Names}}</p>
+                    </li>
+                    <li>
+                        <span>密码:</span> 
+                        <input type="password" ng-model="pas" ng-blur="verifyP(arrs)"/>
+                        <p class="{{Pas}}">{{pass}}</p>
+                    </li>
+                    <li>
+                        <input class="btn" type="button" value="登录" ng-disabled="via" ng-click="login()"/>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>

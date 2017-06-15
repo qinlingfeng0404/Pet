@@ -1,0 +1,37 @@
+<div class="main clearfix">
+    <!--广告图-->
+    <div ng-include=" 'common/banner_img.html' "></div>
+    <!--注册-->
+    <div class="register">
+        <div class="register_main">
+            <h1>注册</h1>
+            <form>
+                <ul>
+                     <li>
+                         <p>用户名:</p>
+                         <input type="text" ng-model="name" ng-blur="verifyN(name)"/>
+                         <span class="name_span{{wN}}">{{warnName}}</span>
+                     </li>
+                     <li>
+                         <p>密码:</p>
+                         <input type="password" ng-model="pas" ng-blur="verifyP(pas)"/>
+                         <span class="name_span{{wP}}">{{warnPass}}</span>
+                     </li>
+                     <li>
+                         <p>手机号:</p>
+                         <input type="text" ng-model="sjh" ng-blur="verifyS(sjh)"/>
+                         <span class="name_span{{wS}}">{{warnSjh}}</span>
+                     </li>
+                     <li>
+                         <p>邮箱:</p>
+                         <input type="text" ng-model="yx" ng-blur="verifyY(yx)"/>
+                         <span class="name_span{{wY}}">{{warnYx}}</span>
+                     </li>
+                     <li>
+                         <input class="btn" type="button" value="注册" ng-disabled="via" ng-click="register()"/>
+                     </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>

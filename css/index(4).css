@@ -1,0 +1,101 @@
+/*广告三*/
+.banner_nav_seven{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.banner_nav_seven>div{
+    padding: 100px 0px;
+}
+.b_n_s_top{
+    width: 100%;
+    overflow: hidden;
+}
+.n_s_t_img{
+    float: left;
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+.n_s_t_img>img{
+    width: 100%;
+    height: 100%
+}
+.n_s_t_img>p{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #CCC;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.b_n_s_top>h4{
+    float: left;
+    width: 600px;
+    font-size: 18px;
+    color: #666666;
+    margin-top: 154px;
+    margin-left: 80px; 
+}
+.b_n_s_top>h1{
+    float: left;
+    width: 600px;
+    font-size: 28px;
+    margin-left: 80px; 
+}
+.b_n_s_top>span{
+    float: left;
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: red;
+    margin-left: 80px; 
+    margin-top: 20px;
+}
+.b_n_s_top>h5{
+    float: left;
+    width: 600px;
+    margin-left: 80px;
+}
+.b_n_s_top>p{
+    float: left;
+    width: 600px;
+    margin-left: 80px;
+    margin-top: 16px; 
+}
+.b_n_s_bottom{
+    width: 100%;
+}
+.b_n_s_bottom>p{
+    float: left;
+    width: 610px;
+    margin-top: 50px;
+}
+.b_n_s_bottom>p.b_p{
+    margin-top: 100px;
+}
+.n_s_b_img{
+    float: right;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    margin-top: -190px;
+}
+.n_s_b_img>img{
+    width: 100%;
+    height: 100%
+}
+.n_s_b_img>p{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #CCC;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}

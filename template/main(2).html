@@ -1,0 +1,30 @@
+<div class="main clearfix">
+    <!--广告图-->
+    <div ng-include=" 'common/banner_img.html' "></div>
+    <!--广告一-->
+    <div class="banner_nav_one">
+        <h2>专科介绍</h2>
+        <p>PET ENCYCLOPEDIA</p>
+        <span ng-repeat="p6 in arr_p6">{{p6}}</span>
+        <div class="b_n_o_main">
+            <img src="http://11563763.s61i.faiusr.com/2/AD0I8_XBBRACGAAguc2gwAUowZ6Y6AMwkAM4jwM.jpg"/>
+            <p>刺猬子宫内膜炎的诊治</p>
+        </div>
+    </div>
+    <!--广告二-->
+    <div class="banner_nav_two">
+        <div class="b_n_t">
+            <p ng-repeat="p7 in arr_p7">{{p7}}</p>
+        </div>
+    </div>
+    <!--广告三-->
+    <div class="banner_nav_three clearfix">
+        <div class="b_n_th" ng-repeat="p8 in arr_p8">
+            <h2>{{p8.name}}</h2>
+            <p>{{p8.nr}}</p>
+            <span></span>
+        </div>
+    </div>
+    <!--广告四-->
+    <div ng-include=" 'common/title.html' "></div>
+</div>

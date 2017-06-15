@@ -1,0 +1,68 @@
+/*广告一*/
+.banner_nav_five{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 180px 0px;
+}
+.banner_nav_five>img{
+    float: left;
+}
+.banner_nav_five>h2{
+    float: left;
+    width: 600px;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.banner_nav_five>p{
+    float: left;
+    font-size: 16px;
+    color: #CCC;
+    margin-left: 40px;
+}
+.banner_nav_five>span{
+    display: block;
+    float: left;
+    width: 600px;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+/*广告*/
+.banner_nav_six{
+    width: 100%;
+    height: 235px;
+    background: url(http://11563763.s61i.faiusr.com/2/AD0I8_XBBRACGAAgyoehwAUo5MvPpwYwgA847AE.jpg) no-repeat top;
+}
+.b_n_s{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+.b_n_s>h2{
+    width: 700px;
+    font-size: 24px;
+    color: #FFF;
+    padding: 20px 0px;
+}
+.b_n_s>p{
+    width: 700px;
+    color: #FFF;
+    padding-bottom: 10px;
+}
+.b_n_s>a{
+    float: right;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 40px;
+    color: red;
+    background: #FFF;
+    margin-top: -100px;
+    margin-right: 150px;
+}

@@ -1,0 +1,29 @@
+<div class="main clearfix">
+    <!--广告图-->
+    <div ng-include=" 'common/banner_img.html' "></div>
+    <!--广告一-->
+    <div class="banner_nav_eleven clearfix">
+        <div class="b_n_ele">
+            <h2>宠物知识</h2>
+            <p>WHO WE ARE</p>
+        </div>
+        <p><span></span></p>
+        <div class="b_n_eleven">
+            <p class="{{$index == 0?'b_n_p':''}}" ng-repeat="val in arrs">{{val}}</p>
+        </div>
+    </div>
+    <!--广告二-->
+    <div class="banner_nav_twelve">
+        <div class="b_n_t{{$index+1}}" ng-repeat="key in arrss">
+            <p ng-repeat="main in key">
+                <img ng-src="{{main.src}}"/>
+                <span>{{main.text}}</span>
+            </p>
+        </div>
+        <img src="http://11563763.s61i.faiusr.com/4/AD0I8_XBBRAEGAAgrcOhwAUokJjnlQEw-QM4igM.png"/>
+    </div>
+    <!--广告三-->
+    <div ng-include=" 'common/text(2).html' "></div>
+    <!--广告四-->
+    <div ng-include=" 'common/title.html' "></div>
+</div>

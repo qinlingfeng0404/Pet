@@ -1,0 +1,372 @@
+/*轮播图*/
+.box_img{
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.box_img>img{
+    width: 100%;
+    height: 100%;
+}
+.img_left{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    position: absolute;
+    top: 220px;
+    left: 30px;
+}
+.img_right{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    position: absolute;
+    top: 220px;
+    right: 30px;
+}
+/*广告一*/
+.box{
+    width: 100%;
+    padding: 100px 0px;
+}
+.box>h2{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+}
+.box>span{
+    display: block;
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #CCC;
+    padding-bottom: 30px;
+}
+.box>div{
+    width: 100%;
+    height: 1px;
+    background-color: #CCC;
+}
+.box>p{
+    width: 750px;
+    margin: 0 auto;
+    color: #666666;
+    text-align: center;
+    padding: 5px 0px;
+}
+.box>p.box_p{
+    padding-top: 40px;
+}
+/*广告二*/
+.box_main_img{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.box_main_img>img{
+    float: left;
+    padding-right: 14px;
+    padding-bottom: 22px;
+}
+.b_m{
+    float: right;
+    width: 336px;
+    height: 206px;
+    background: red;
+    margin-right: 18px;
+    padding: 30px;
+}
+.b_m>h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFF;
+}
+.b_m>p{
+    font-size: 14px;
+    color: #FFF;
+    margin-top: 30px;
+}
+/*广告三*/
+.column{
+    width: 100%;
+    background: url(http://11563763.s61i.faiusr.com/2/AD0I8_XBBRACGAAg7KWbwAUo_OL8jQEwgA849AE.jpg) no-repeat top;
+}
+.column_main{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+.column_main>h2{
+    float: left;
+    width: 620px;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+.column_main>p{
+    float: left;
+    width: 620px;
+    color: #FFF;
+    font-size: 16px;
+}
+.c_m{
+    float: right;
+    width: 340px;
+    margin-top: -30px;
+    margin-right: 64px;
+}
+.c_m>span{
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding: 14px 30px;
+    margin-right: 20px;
+}
+/*广告四*/
+.banne{
+    width: 1200px;
+    margin: 0 auto;
+}
+.banne_main{
+    padding: 100px 0px;
+}
+.banne_main>h2{
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+.banne_main>p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666666;
+}
+.b_m_main{
+    float: left;
+    width: 520px;
+    font-size: 14px;
+    color: #666666;
+    margin-right: 40px;
+    margin-bottom: 24px;
+}
+.b_m_nav{
+    width: 600px;
+}
+.banne_img{
+    float: right;
+    width: 768px;
+    height: 509px;
+    background: url(http://11563763.s61i.faiusr.com/2/AD0I8_XBBRACGAAgkLabwAUo5InpxAEwgAY4-QM.jpg);
+}
+.b_content{
+    float: left;
+    width: 400px;
+    margin-top: 280px;
+}
+.b_content>p{
+    color: #666666;
+    padding-bottom: 10px;
+}
+/*广告五*/
+.banne_column{
+    width: 100%;
+    background: url(http://11563763.s61i.faiusr.com/2/AD0I8_XBBRACGAAgjq_bwAUozObYDzCADzibAg.jpg) no-repeat top;
+}
+.b_c_main{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0px;
+}
+.b_c_main>p{
+    float: left;
+    width: 620px;
+    color: #FFF;
+    padding-bottom: 20px;
+    margin-top: 4px;
+}
+.b_c_main>a{
+    text-decoration: none;
+}
+.b_c_zi{
+    display: block;
+    float: right;
+    width: 240px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    line-height: 80px;
+    border-radius: 40px;
+    text-align: center;
+    background: #FFF;
+    margin-top: -64px;
+}
+/*广告六*/
+.banne_one{
+    width: 100%;
+    padding-bottom: 60px;
+}
+.banne_o_xian{
+    width: 100%;
+    height: 1px;
+    background: #CCC;
+}
+.banne_o_one{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.banne_o_one>h2{
+    width: 100%;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.banne_o_one>p{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.banne_o_one>a{
+    display: block;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    background: red;
+    margin-top: 60px;
+    margin-left: 530px;
+}
+.banne_o_two{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+.banne_o_two>div{
+    float: left;
+    width: 600px;
+    padding-top: 50px;
+}
+.banne_o_two>div>a{
+    display: block;
+    text-decoration: none;
+    width: 500px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    padding: 20px 0px;
+}
+.banne_o_two>div>a>span{
+    display: block;
+    float: right;
+    font-size: 16px;
+    font-weight: normal;
+}
+.banne_o_two>div>a:hover{
+    color: red;
+}
+.banne_o_two>div>a:hover span{
+    font-size: 18px;
+}
+.banne_o_two>div>p{
+    width: 500px;
+    font-size: 14px;
+    color: #CCC;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #CCC;
+}
+/*广告七*/
+.banne_two{
+    width: 100%;
+    height: 586px;
+    background: url(http://11563763.s61i.faiusr.com/2/AD0I8_XBBRACGAAgrtabwAUo7ZWL5gMwgA84ywQ.jpg) no-repeat top;
+}
+.banne_two_main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.b_t_m_left{
+    float: left;
+    width: 400px;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+.b_t_m_left>span{
+    display: block;
+    width: 340px;
+    color: #FFF;
+    padding: 40px 0px;
+}
+.b_t_m_left>div{
+    width: 340px;
+    height: 1px;
+    background: #CCC;
+}
+.b_t_m_left>img{
+    float: left;
+    margin-top: 100px;
+}
+.b_t_m_left>p{
+    float: left;
+    width: 300px;
+    font-size: 14px;
+    color: #FFF;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.b_t_m_left>p.p1{
+    margin-top: 100px;
+}
+.b_t_m_right{
+    float: right;
+    width: 400px;
+    padding-top: 140px;
+}
+.b_t_m_right>form>p{
+    width: 100%;
+    color: #CCC;
+    padding: 8px 0px;
+}
+.text{
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 2px;
+    border-style: none;
+}
+.b_t_m_right>form>textarea{
+    width:100%;
+    height: 140px;
+    background: #FFF;
+    border-radius: 2px;
+    border-style: none;
+    resize: none;
+}
+.tj{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: #FFF;
+    background: red;
+    border-style: none;
+}

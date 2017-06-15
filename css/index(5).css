@@ -1,0 +1,215 @@
+/*广告一*/
+.banner_nav_eight{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 140px 0px;
+}
+.banner_nav_eight>h2{
+    width: 600px;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+.banner_nav_eight>p{
+    width: 600px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.banner_nav_eight>span{
+    display: block;
+    width: 600px;
+    padding-top: 60px;
+}
+.banner_nav_eight>img{
+    float: right;
+    margin-top: -200px;
+    margin-right: 100px;
+}
+/*广告二*/
+.banner_nav_nine{
+    width:100%;
+    height: 520px;
+    background: url(http://11563763.s61i.faiusr.com/2/AD0I8_XBBRACGAAgwoehwAUont_8vgEwgA84jgQ.jpg) no-repeat top;
+}
+.b_n_n{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.b_n_n>h2{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #FFF;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+.b_n_n>p{
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    top: 320px;
+    left: 300px;
+}
+.b_n_n>p.nn_p{
+    position: absolute;
+    top: 274px;
+    left: 306px
+}
+/*广告四*/
+.banner_nav_ten{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 200px 0px;
+}
+.b_n_ten1{
+    float: left;
+    width: 400px;
+}
+.b_n_ten1>h2{
+    font-size: 26px;
+    font-weight: bold;
+    color: red;
+}
+.b_n_ten1>p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+    padding-left: 5px;
+}
+.b_n_ten2{
+    float: left;
+    width: 690px;
+}
+.b_n_ten2>p{
+    width: 100%;
+    height: 120px;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+.b_n_ten2>img{
+    width: 100%;
+}
+/*留言板*/
+.Messages{
+    width: 100%;
+    height: 586px;
+    background: url(http://11563763.s61i.faiusr.com/2/AD0I8_XBBRACGAAgrtabwAUo7ZWL5gMwgA84ywQ.jpg) no-repeat top;
+}
+.M_main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.M_main>form>table{
+    float: left;
+    border-collapse:collapse;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.M_main>form table tr th{
+    width: 120px;
+    font-size: 24px;
+    color: #FFF;
+}
+.M_main>form table tr td input{
+    width: 200px;
+    border-style: none;
+    border-radius: 4px;
+
+}
+.M_main>form table tr td textarea{
+    width: 600px;
+    height: 100px;
+    background: #FFF;
+    border-radius: 4px;
+    resize: none;
+}
+.M_main>form table tr td input.submit{
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    background: red;
+    margin-top: 80px;
+    margin-left: 300px;
+}
+.M_nr{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.M_nr>h2{
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #CCC;
+}
+.M_nr>h1{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+.M_nr_main{
+    width: 100%;
+    padding: 40px 0px;;
+}
+.M_nr_main>span{
+    float: left;
+    display: block;
+    width: 400px;
+    font-size: 24px;
+    margin-left: 100px;
+}
+.M_nr_main>h3{
+    float: left;
+    width: 400px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.M_nr_main>p{
+    float: left;
+    width: 1000px;
+    font-size: 16px;
+    margin-left: 100px;
+}
+.M_skip{
+    float: left;
+    width: 600px;
+    height: 30px;
+    margin-top: 80px;
+    margin-left: 270px;
+}
+.M_skip>p{
+    float: left;
+    padding: 2px 10px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.M_skip>span{
+    display: block;
+    float: left;
+    width: 50px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+.M_skip>input{
+    float: left;
+    width: 40px;
+    border-radius: 4px;
+}
+.ym{
+    height: 20px;
+}
+.qd{
+    height: 24px;
+}

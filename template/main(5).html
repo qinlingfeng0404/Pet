@@ -1,0 +1,31 @@
+<div class="main clearfix">
+    <!--广告图-->
+    <div ng-include=" 'common/banner_img.html' "></div>
+    <!--广告一-->
+    <div class="banner_nav_eight clearfix">
+        <h2>关于我们</h2>
+        <p>WHO WE ARE</p>
+        <span ng-repeat="val in arr">{{val}}</span>
+        <img src="http://11563763.s61i.faiusr.com/4/AD0I8_XBBRAEGAAgz4ehwAUosrnYhQMwzAE4uAE.png"/>
+    </div>
+    <!--广告二-->
+    <div class="banner_nav_nine">
+        <div class="b_n_n clearfix">
+            <h2>医疗技术实力雄厚</h2>
+            <p class="{{$index == 0?'nn_p':''}}" ng-repeat="p in arrs">{{p}}</p>
+        </div>
+    </div>
+    <!--广告三-->
+    <div ng-include=" 'common/text(2).html' "></div>
+    <!--广告四-->
+    <div class="banner_nav_ten clearfix">
+        <div class="b_n_ten1">
+            <h2>企业精神</h2>
+            <p>WHO WE ARE</p>
+        </div>
+        <div class="b_n_ten2">
+            <p ng-repeat="t in text">{{t}}</p>
+            <img src="http://11563763.s61i.faiusr.com/4/AD0I8_XBBRAEGAAgxYehwAUohKvO2gMw7AU4tQI.png"/>
+        </div>
+    </div>
+</div>

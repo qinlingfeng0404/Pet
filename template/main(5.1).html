@@ -1,0 +1,54 @@
+<div class="main clearfix">
+    <!--广告图-->
+    <div ng-include=" 'common/banner_img.html' "></div>
+    <!--留言板-->
+    <div class="Messages clearfix">
+        <div class="M_main clearfix">
+            <form>
+                <table>
+                    <tr>
+                        <th>宠物主人</th>
+                        <td>
+                            <input type="text" ng-model="name"/>
+                        </td>
+                        <th>宠物名字</th>
+                        <td>
+                            <input type="text" ng-model="petname"/>
+                        </td>
+                    </tr>
+                    <tr> 
+                        <th>描述</th>
+                        <td colspan="3">
+                            <textarea ng-model="describe"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <input class="submit" type="button" value="留言提交" ng-click="submit()"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <!--留言内容-->
+    <div class="M_nr clearfix">
+        <h2>留言内容</h2>
+        <h1 ng-show="arr_nr.lenght">暂无内容</h1>
+        <div class="M_nr_main clearfix" ng-repeat="val in arr_nr">
+            <span>宠物主人:  {{val.name}}</span>
+            <h3>宠物:  {{val.petname}}</h3>
+            <p>病症:  {{val.describe}}</p>
+        </div>
+        <div class="M_skip clearfix">
+            <p>上一页</p>
+            <span></span>
+            <p>下一页</p>
+            <span></span>
+            <span>到第</span>
+            <input class="ym" type="text"/>
+            <span>页</span>
+            <input class="qd" type="button" value="确定"/>
+        </div>
+    </div>
+</div>

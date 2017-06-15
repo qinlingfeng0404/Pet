@@ -1,0 +1,77 @@
+<div class="main clearfix">
+    <!--轮播图-->
+    <div class="box_img" ng-mouseenter="stop(1)" ng-mouseleave="stop(2)">
+        <img ng-src="{{arr[i]}}"/>
+        <div class="img_left" ng-click="Tab(1)"> < </div>
+        <div class="img_right" ng-click="Tab(2)"> > </div>
+    </div>
+    <!--广告一-->
+    <div class="box">
+        <h2>宠物百科</h2>
+        <span>PET ENCYCLOPEDIA</span>
+        <div></div>
+        <p class="{{$index == 0?'box_p':''}}" ng-repeat="val in arr_p">{{val}}</p>
+    </div>
+    <!--广告二-->
+    <div class="box_main_img clearfix">
+        <img ng-repeat="url in imgs" ng-src="{{url}}"/>
+        <div class="b_m">
+            <h2>宠物狗狗养护知识</h2>
+            <p>幼儿时期的狗狗，多以高蛋白，高钙含量的食物为主，因为幼儿狗狗骨骼发育不完全，而且处于长身体的时候，需要补充狗狗身体发育的必须营养。更需要准备易消化，高吸收的食物，因为幼年的狗狗消化功能还不是很强，对坚硬的食物</p>
+        </div>
+        <img src="http://11563763.s61i.faiusr.com/2/AD0I8_XBBRACGAAgnOiXwAUo77P5pAMw_wI4rAE.jpg"/>
+    </div>
+    <!--广告三-->
+    <div class="column clearfix">
+        <div class="column_main clearfix">
+            <h2>宠物的家园，让你的宝贝享受家的感觉</h2>
+            <p>PET HOME, LET YOUR BABY ENJOYS THE FEELING OF HOME.</p>
+            <div class="c_m">
+                <span ng-repeat="z in arr_span">{{z}}</span>
+            </div>
+        </div>
+    </div>
+    <!--广告四-->
+    <div ng-include=" 'common/text(1).html' "></div>
+    <!--广告五-->
+    <div class="banne_column">
+        <div class="b_c_main clearfix">
+            <p ng-repeat="p2 in arr_p2">{{p2}}</p>
+            <a href="#" class="b_c_zi">马上预约</a>
+        </div>
+    </div>
+    <!--广告六-->
+    <div class="banne_one">
+        <div class="banne_o_one">
+            <h2>怎么提高狗狗的食欲</h2>
+            <p ng-repeat="p3 in arr_p3">{{p3}}</p>
+            <a href="#">查看详情>></a>
+        </div>
+        <div class="banne_o_xian"></div>
+        <div ng-include=" 'common/text.html' "></div>
+    </div>
+    <!--广告七-->
+    <div class="banne_two">
+        <div class="banne_two_main clearfix">
+            <div class="b_t_m_left">
+                <span>凭借阵容强大的专家团队、媲美港台的医疗设备、遵循规范、严<br/><br/>谨的作业流程，每年为几十万只宠物提供高品质的服务。</span>
+                <div></div>
+                <img src="http://11563763.s61i.faiusr.com/4/AD0I8_XBBRAEGAAgqOiXwAUogP7B3wcwTzhk.png"/>
+                <p class="{{$index == 0?'p1':''}}" ng-repeat="p5 in arr_p5">
+                    {{p5.name}}{{p5.nr}}
+                </p>
+            </div>
+            <div class="b_t_m_right">
+                <form>
+                    <p>宠物主人</p>
+                    <input class="text" type="text" ng-model="name"/>
+                    <p>宠物名字</p>
+                    <input class="text" type="text" ng-model="petname"/>
+                    <p>描述</p>
+                    <textarea ng-model="describe"></textarea>
+                    <input class="tj" type="button" value="提交" ng-click="submit()"/>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
